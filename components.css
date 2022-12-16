@@ -103,7 +103,7 @@
 
 /*Global Button styles*/
 .btn {
-  color: var(blue-1);
+  color: var(--blue-1);
   font-family: "Poppins";
   font-weight: 500;
   font-size: 1.4rem;

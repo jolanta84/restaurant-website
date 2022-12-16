@@ -19,3 +19,14 @@ const navClose =()=>{
 navIconElement.addEventListener('click', navOpen);
 navCloseElement.addEventListener('click', navClose);
 navBgOverlayElement.addEventListener('click', navClose);
+
+//aos
+AOS.init({
+  offset: 200,
+  delay:400,
+  duration: 400,
+  easing: 'ease',
+  once: false,
+  mirror: false,
+  anchorPlacement: 'top-bottom'
+})
