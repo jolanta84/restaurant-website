@@ -240,12 +240,12 @@ footer {
   width: 150px;
 }
 
-.storeInfo__icon{
-  color:var(--blue-1);
+.storeInfo__icon {
+  color: var(--blue-1);
   margin-bottom: 1.5rem;
 }
 
-.storeInfo__title{
+.storeInfo__title {
   font-size: 1.4rem;
   font-family: Poppins;
   font-weight: 500;
@@ -253,34 +253,33 @@ footer {
   color: var(--blue-1);
 }
 
-.storeInfo__text{
+.storeInfo__text {
   font-size: 1.4rem;
   font-family: Raleway;
-color: var(--black-2);
+  color: var(--black-2);
 }
 
-@media only screen and (min-width: 768px){
-  .storeInfo__wrapper{
+@media only screen and (min-width: 768px) {
+  .storeInfo__wrapper {
     gap: 2rem;
   }
-  .storeInfo__item{
+  .storeInfo__item {
     min-width: 200px;
     padding: 40px 0;
   }
-  .storeInfo__icon svg{
+  .storeInfo__icon svg {
     width: 48px;
-    height:48px;
+    height: 48px;
     margin-bottom: 2.5rem;
   }
 
-  .storeInfo__title{
+  .storeInfo__title {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-
   }
 
-  .footer__text{
+  .footer__text {
     font-size: 1.6rem;
   }
-
 }
+
