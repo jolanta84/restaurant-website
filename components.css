@@ -305,6 +305,8 @@ footer {
   gap: 0.5rem;
   border-radius: 8px;
 }
+
+
 .dishGrid__item__img {
   flex: 4;
 }
