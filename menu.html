@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./globalStyles.css" />
     <link rel="stylesheet" href="./components.css" />
+    <link rel="stylesheet" href="./menu.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
@@ -72,14 +73,57 @@
       </div>
     </div>
     <!--End Nav Section-->
-    <h1>This is Menu Page</h1>
+    <!--Page Tittle-->
+    <section id="page__title">
+      <div class="container">
+        <h2 class="page__title__text">Explore Our Menu</h2>
+      </div>
+    </section>
+    <!--End Page Tittle-->
+
+    <!--Our special section-->
+    <section id="ourSpecials">
+      <div class="container">
+        <h3 class="ourSpecials__title">Our Specials</h3>
+        <div class="ourSpecials__wrapper">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/burger_1.jpg" alt="tribute burger" />
+            </div>
+            <div class="ourSpecials__item__info">
+              <h3 class="ourSpecials__item__title">Tribute Burger</h3>
+              <h4 class="ourSpecials__item__price">30 PLN</h4>
+              <img
+                src="./images/special_offer.png"
+                alt="Special Offers"
+              />
+            </div>
+          </div>
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/burger_2.jpg" alt="wild burger" />
+            </div>
+            <div class="ourSpecials__item__info">
+              <h3 class="ourSpecials__item__title">Wild Burger</h3>
+              <h4 class="ourSpecials__item__price">40 PLN</h4>
+              <img
+                src="./images/special_offer.png"
+                alt="Special Offers"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End Our special section-->
 
     <!--Footer-->
     <footer>
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__col">
-                     <div class="footer__socials">
+            <div class="footer__socials">
               <h4 class="footer__socials__title">Follow us</h4>
               <ol>
                 <li>
@@ -189,13 +233,16 @@
               </li>
             </ol>
           </div>
-          </div>
-
         </div>
       </div>
     </footer>
-    <div id="copyright"><div class="container"><p class="copyright__text">© copyright 2022 Wild Burger | All rights reserved</p></div></div>
-
+    <div id="copyright">
+      <div class="container">
+        <p class="copyright__text">
+          © copyright 2022 Wild Burger | All rights reserved
+        </p>
+      </div>
+    </div>
     <!--End footer-->
 
     <!--aos script-->
