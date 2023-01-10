@@ -307,16 +307,11 @@ footer {
 }
 
 
-.dishGrid__item__img {
-  flex: 4;
-}
-
-.dishGrid__item__info {
-  flex: 5;
-}
 .dishGrid__item__img img {
-  object-fit: cover;
+  object-fit: cover;  
   border-radius: 12px;
+
+  
 }
 .dishGrid__item__title {
   font-size: 1.4rem;
