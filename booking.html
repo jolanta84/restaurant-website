@@ -72,14 +72,79 @@
       </div>
     </div>
     <!--End Nav Section-->
-    <h1>This is Booking Page</h1>
+    <!--Booking section-->
+    <section id="booking" data-aos="fade-up">
+      <div class="container">
+        <h3 class="form__title">Book Table</h3>
+        <div class="form__wrapper">
+          <form>
+            <div class="form__group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="first_name" required />
+            </div>
+            <div class="form__group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="last_name" required />
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form__group">
+              <label for="tableType">Table Type</label>
+              <select id="tableType" name="table_type" required>
+                <option selected disabled>Choose</option>
+                <option value="small">Small (2 persons)</option>
+                <option value="medium">Medium (4 persons)</option>
+                <option value="large">Large (6 persons)</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="guestNumber">Guest Number</label>
+              <input
+                type="number"
+                id="guestNumber"
+                name="guest_number"
+                min="1"
+                max="12" required
+              />
+            </div>
+            <div class="form__group">
+              <label for="placement">Placement</label>
+              <select id="placement" name="placement" required>
+                <option selected disabled>Choose</option>
+                <option value="outdoor">Outdoor</option>
+                <option value="indoor_1st">Indoor 1st floor</option>
+                <option value="indoor_2nd">Indoor 2nd floor</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form__group">
+              <label for="time">Time</label>
+              <input type="time" id="time" name="time" required />
+            </div>
+            <div class="form__group form__group__full">
+              <label for="note">Note</label>
+              <textarea name="note" id="note" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn" >Book Table</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--End Booking section-->
 
     <!--Footer-->
     <footer>
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__col">
-                     <div class="footer__socials">
+            <div class="footer__socials">
               <h4 class="footer__socials__title">Follow us</h4>
               <ol>
                 <li>
@@ -185,16 +250,20 @@
                 <a href="mailto:wild.burger@gmail.com">wild.burger@gmail.com</a>
               </li>
               <li>
-                <a href="#">Ul. Stalowa 15, 44-100 Gliwice</a>
+                <a href="#">Stalowa 15, 44-100 Gliwice</a>
               </li>
             </ol>
           </div>
-          </div>
-
         </div>
       </div>
     </footer>
-    <div id="copyright"><div class="container"><p class="copyright__text">© copyright 2022 Wild Burger | All rights reserved</p></div></div>
+    <div id="copyright">
+      <div class="container">
+        <p class="copyright__text">
+          © copyright 2022 Wild Burger | All rights reserved
+        </p>
+      </div>
+    </div>
 
     <!--End footer-->
 
