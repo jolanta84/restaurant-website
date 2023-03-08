@@ -5,7 +5,7 @@
 
 ## Project description
 
-Wild Burger is a HTML, CSS anad JavaScript project. The website is responsive.
+Wild Burger is a HTML, CSS and JavaScript project. The website is responsive.
 It contains:
 
 * HomePage 
